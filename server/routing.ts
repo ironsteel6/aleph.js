@@ -8,6 +8,7 @@ import type { Context, Route, RouteMatch, RouteMeta, Router, RouteRegExp, Router
 
 /** import the route module. */
 export async function importRouteModule({ filename, pattern }: RouteMeta, appDir?: string) {
+  debugger;
   const config = getAlephConfig();
   const routes = config?.router?.routes;
   if (routes && pattern.pathname in routes) {
