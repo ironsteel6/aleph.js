@@ -58,7 +58,7 @@ export default function Todos() {
     <div className="todos-app">
       <Head>
         <title>Todos</title>
-        <meta name="description" content="A todos app powered by Aleph.js" />
+        <meta name="description" content="A todos app powered by Aleph.js tweaked Tsui" />
       </Head>
       <h1>
         <span>Todos</span>
@@ -119,7 +119,7 @@ export default function Todos() {
         <input
           type="text"
           name="message"
-          placeholder="What needs to be done?"
+          placeholder="What needs to be done Tsui?"
           autoFocus
           autoComplete="off"
           disabled={!!isMutating}
